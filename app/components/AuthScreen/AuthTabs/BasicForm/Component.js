@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { View, TextInput, TouchableOpacity, Text } from 'react-native'
+import { View, TextInput, TouchableOpacity, Text , Image } from 'react-native'
 
 import translations from '../../../../i18n'
 
@@ -29,6 +29,8 @@ class BasicFormComponent extends Component {
     return (
       <View
         style={styles.container}>
+
+        <Image style={{width: 250, height:200 , justifyContent:'center', alignItems:'center', marginHorizontal : 30}}source={require('../../../../images/dibyochat.png')} />
 
         <TextInput
           style={styles.textInput}

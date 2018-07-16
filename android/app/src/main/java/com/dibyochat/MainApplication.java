@@ -1,4 +1,4 @@
-package com.chat;
+package com.dibyochat;
 
 import android.app.Application;
 

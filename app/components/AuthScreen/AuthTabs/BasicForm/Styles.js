@@ -5,6 +5,7 @@ export default StyleSheet.create({
     flex: 1,
     alignItems: 'stretch',
     justifyContent:'center',
+    paddingHorizontal: 20
   },
   textInput: {
     backgroundColor: '#ffffff',
